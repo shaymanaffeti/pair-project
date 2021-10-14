@@ -99,7 +99,7 @@ ul {
 
 }
 #T1{
-    margin-left:2%
+    margin-left:1%
 }
 .CMC{
     width:10%;
@@ -146,6 +146,41 @@ button{
     margin-left:82%;
     margin-top:-17.5%;
 }
+.A{
+    margin-top:2% ;
+}
 h2{
     color:#000f6a;
 }
+.HC{
+    width: 10%;
+    height: 10%;
+    margin-left: 1%;
+}
+.W{
+    width: 12%;
+    height: 270px;
+}
+
+#A2 {
+    margin-top: -19%;
+    margin-left: 20%;
+  
+}
+.TA{
+    height:268px;
+    width:14%;  
+}
+#A3{
+    margin-left:40%;
+    margin-top:-19%;
+}
+.G{
+    height:250px ;  
+  }
+
+#A4{
+    margin-left:60%;
+    margin-top:-18%;
+}
+
