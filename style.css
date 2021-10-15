@@ -1,15 +1,17 @@
+
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 8;
   overflow: hidden;
-  background-color: #000F6A;
+  background-color:#000318;
+  max-height: 50%;
 }
 li {
     font-size: 90%;
-    color:white;
-  float: left;
-  display:inline;
+    color:black;
+    float: left;
+   display:inline;
 }
 li a {
   display: block;
@@ -19,13 +21,17 @@ li a {
   text-decoration: none;
 }
 li a:hover {
-  background-color :#5f77ff;
+  background-color :#c1cafe;
+}
+.Home{
+  margin-left: -5%;
 }
 .cat{
-  margin-top:-5%;
+  position: relative;
+  bottom : 40px;
   background-color: #000318 ;
   color: white;
-  padding: 14px;
+  padding: 12px;
   font-size: 13px;
   border: none;
 }
@@ -34,12 +40,11 @@ li a:hover {
   position: relative;
   display: inline-block;
   margin-left:15% ;
-  
 
 }
 
 .list {
-  
+  margin-top:-2%;
   display: none;
   position: absolute;
   background-color: #000318;
@@ -92,7 +97,7 @@ color: #3A3A3A;
   margin-top:-1%;
   margin-left: -0.5%;
   margin-right:-1% ;
-   height: 55%;
+  
 }
 #T1{
   margin-left:1%
@@ -221,20 +226,44 @@ h2{
   margin-left:82%;
   margin-top:-22.5%;
 }
-button {
+.b{
   display: inline-block;
   border-radius: 4px;
-  background-color: #cfaea4;
+  background-color:grey;
   border: none;
   color: #FFFFFF;
   text-align: center;
   font-size: 10px;
-  padding: 8px;
-  width: 50px;
+  padding: 10px;
+  width: 80px;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
-  margin-left: 10%;
-  margin-top: -10%;
+  margin-left: 6%;
+  margin-top: -1%;
 }
+.b span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.b span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.b:hover span {
+  padding-right: 25px;
+}
+.b:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
 
