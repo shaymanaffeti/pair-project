@@ -98,3 +98,5 @@ function MidSommerBtn() {
     `)
     res.appendTo('body')
 }
+
+
