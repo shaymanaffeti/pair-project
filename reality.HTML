@@ -9,11 +9,24 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <script src="https://kit.fontawesome.com/c8e4d183c2.js"
        crossorigin="anonymous"></script>
+       <style>
+         #theme{
+    margin-left: 0.5%;
+    margin-top: 0.5%;
+    border:none;
+    border-radius:20px;
+    background-color: transparent;
+    color :#c1cafe
+  
+  }
+       </style>
 </head>
 <body style="background-color: black;">
-  <button class='backhome' style="border:none; border-radius:10%; color:#F2B8C6; background-color:transparent;"><i class="fas fa-angle-double-left"></i></button> 
-  
-<div class="container"  style="margin-left: 30%;"> 
+
+  <button class='backhome' style="border:none; border-radius:10%; color:#c1cafe; background-color:transparent;"><i class="fas fa-angle-double-left"></i></button> 
+  <button id='theme' onclick=" blackB()" ondblclick="whiteB()" ><i class="fas fa-adjust"></i></button>
+<div class="container" > 
+
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -58,7 +71,9 @@
     </a>
 
     <script src='home.js'></script>
+    <script src='main.js'></script>
     
+
   </div>
 </div>
 
